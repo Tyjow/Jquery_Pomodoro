@@ -1,4 +1,3 @@
-
 var field;
 var minutes = 0;
 var seconds = 0;
@@ -44,12 +43,13 @@ function timer() {
 	    	seconds = "0" + seconds;
 	    }
 
+		if (seconds > 59){
+			seconds = "0" + 0;
+			minutes++;
+		}
+
 		$(".time").text(minutes + ":" + seconds);
 
-		if (seconds == 60){
-			minutes++;
-			seconds = 0;
-		}
     }, 1000);
 }
 
