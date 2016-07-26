@@ -4,12 +4,12 @@ var seconds = 0;
 var timerInterval;
 
 $("h1").text("Pomodoro");
-$("h1").css("color", "blue");
+$("h1").css("color", "rgba(255,0,0,.7)");
 $("h1").css("text-align", "center");
-$("body").css("background-color", "#000");
-$("h2").css("color", "#fff");
-$(".time").css("color", "#fff");
-$("body").css("color", "red");
+//$("body").css("background-color", "#000");
+//$("h2").css("color", "#fff");
+//$(".time").css("color", "#fff");
+//$("body").css("color", "red");
 
 
 function doing() {
